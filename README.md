@@ -22,22 +22,31 @@ Para configurar y ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
 Paso 1: Clona el Repositorio (si aplica)
 Si obtuviste el código de un repositorio, clónalo primero:
+
 Bash
+
 git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_PROYECTO>
 
 Abre tu terminal y crea un nuevo proyecto de React:
+
 Bash
+
 npx create-react-app formulario-react
 
 Instala las dependencias necesarias, incluyendo Bootstrap:
+
 Bash
+
 npm install bootstrap react-bootstrap
+
 Una vez que las dependencias estén instaladas, puedes iniciar la aplicación.
 
 ▶️ Ejecución del Proyecto
+
 Ejecuta el siguiente comando en tu terminal para iniciar el servidor de desarrollo:
+
 Bash
+
 npm run  start
 
 Tu navegador web se abrirá automáticamente en http://localhost:3000 y verás el formulario de registro en funcionamiento. El servidor se actualizará automáticamente con cada cambio que guardes en los archivos del proyecto.
